@@ -1,0 +1,10 @@
+name = "viola-engineering"
+main = "website/src/index.js"
+compatibility_date = "2026-03-30"
+
+routes = [
+  { pattern = "viola.engineering", custom_domain = true }
+]
+
+[vars]
+ENVIRONMENT = "production"

@@ -1,0 +1,12 @@
+{
+  "name": "viola-engineering",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev website/src/index.js",
+    "deploy": "wrangler deploy website/src/index.js"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
