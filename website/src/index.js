@@ -30,7 +30,7 @@ function buildPage() {
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Viola Engineering</title>
-<meta name="description" content="Infrastructure, products, and systems — from bare metal to cloud, from C++ to AI. Engineering that works.">
+<meta name="description" content="Infrastructure, products, and systems, from bare metal to cloud, from C++ to AI. Engineering that works.">
 <meta property="og:title" content="Viola Engineering">
 <meta property="og:description" content="Infrastructure, products, and systems. Engineering that works.">
 <meta property="og:type" content="website">
@@ -78,14 +78,14 @@ tailwind.config = {
 <!-- Navigation -->
 <nav id="nav" class="fixed top-0 inset-x-0 z-50 py-4 backdrop-blur-xl transition-all duration-300">
   <div class="max-w-4xl mx-auto px-6 flex items-center justify-between">
-    <a href="#" class="text-sm font-semibold tracking-wide text-gray-200 no-underline">
-      <span class="text-viola">V</span>&thinsp;/&thinsp;viola.engineering
+    <a href="#" class="text-sm font-semibold tracking-wide text-gray-200 no-underline shrink-0">
+      <span class="text-viola">V</span><span class="hidden sm:inline">&thinsp;/&thinsp;viola.engineering</span>
     </a>
-    <div class="flex gap-7">
-      <a href="#about" class="text-xs tracking-wide text-gray-500 hover:text-viola transition-colors">About</a>
-      <a href="#projects" class="text-xs tracking-wide text-gray-500 hover:text-viola transition-colors">Projects</a>
-      <a href="#expertise" class="text-xs tracking-wide text-gray-500 hover:text-viola transition-colors">Expertise</a>
-      <a href="#contact" class="text-xs tracking-wide text-gray-500 hover:text-viola transition-colors">Contact</a>
+    <div class="flex gap-4 sm:gap-7">
+      <a href="#about" class="text-[11px] sm:text-xs tracking-wide text-gray-500 hover:text-viola transition-colors">About</a>
+      <a href="#projects" class="text-[11px] sm:text-xs tracking-wide text-gray-500 hover:text-viola transition-colors">Projects</a>
+      <a href="#expertise" class="text-[11px] sm:text-xs tracking-wide text-gray-500 hover:text-viola transition-colors">Expertise</a>
+      <a href="#contact" class="text-[11px] sm:text-xs tracking-wide text-gray-500 hover:text-viola transition-colors">Contact</a>
     </div>
   </div>
 </nav>
@@ -93,12 +93,11 @@ tailwind.config = {
 <!-- Hero -->
 <section class="min-h-screen flex items-center justify-center relative px-6 pt-32 pb-20">
   <div class="text-center max-w-2xl mx-auto">
-    <p class="text-xs font-medium tracking-[3px] uppercase text-viola mb-8">viola.engineering</p>
     <h1 class="text-5xl sm:text-6xl md:text-7xl font-bold tracking-tight leading-[1.1] mb-6">
       <span class="gradient-text">Engineering that works.</span>
     </h1>
     <p class="text-lg sm:text-xl text-gray-400 font-light leading-relaxed max-w-lg mx-auto mb-12">
-      From bare metal clusters to AI agent fleets — infrastructure, products, and systems built to last.
+      From bare metal clusters to AI agent fleets, infrastructure, products, and systems built to last.
     </p>
     <div class="flex gap-4 justify-center flex-wrap">
       <a href="#projects" class="inline-flex items-center gap-2 px-7 py-3 rounded-lg text-sm font-medium bg-viola text-surface hover:bg-viola-light hover:-translate-y-0.5 hover:shadow-[0_8px_30px_rgba(167,139,250,0.25)] transition-all">
@@ -124,10 +123,10 @@ tailwind.config = {
     </div>
     <div class="reveal mt-6 max-w-2xl">
       <p class="text-gray-400 text-base leading-[1.9] mb-4">
-        <strong class="text-viola font-medium">Viola Engineering</strong> is an engineering brand founded by Alice Viola Setti — software engineer, architect, and sysadmin with a background in Mechatronic Engineering.
+        <strong class="text-viola font-medium">Viola Engineering</strong> is an engineering brand founded by Alice Viola Setti, software engineer, architect, and sysadmin with a background in Mechatronic Engineering.
       </p>
       <p class="text-gray-400 text-base leading-[1.9] mb-4">
-        The work goes deep. Organizing datacenters and bare metal infrastructure. Designing distributed systems and complex architectures. Shipping <strong class="text-gray-200 font-medium">complete products</strong> — from the database engine to the user interface. Building <strong class="text-gray-200 font-medium">AI agent systems</strong> that do real work.
+        The work goes deep. Organizing datacenters and bare metal infrastructure. Designing distributed systems and complex architectures. Shipping <strong class="text-gray-200 font-medium">complete products</strong> from the database engine to the user interface. Building <strong class="text-gray-200 font-medium">AI agent systems</strong> that do real work.
       </p>
       <p class="text-gray-400 text-base leading-[1.9]">
         Good engineering means understanding every layer. That's the point.
@@ -177,7 +176,7 @@ tailwind.config = {
             <span class="text-[11px] px-2.5 py-1 rounded-full bg-viola/[0.08] text-viola border border-viola/[0.15] tracking-wide">libuv</span>
           </div>
         </div>
-        <p class="text-gray-400 text-[15px] leading-[1.8] mb-5">A partitioned message queue backed by PostgreSQL. Unlimited FIFO partitions that never block each other, consumer groups with replay, transactional delivery — ACID-guaranteed. Kafka semantics on Postgres, with stateless clients speaking HTTP to a stateless server. Peaks at 45k req/s.</p>
+        <p class="text-gray-400 text-[15px] leading-[1.8] mb-5">A partitioned message queue backed by PostgreSQL. Unlimited FIFO partitions that never block each other, consumer groups with replay, transactional delivery ACID-guaranteed. Kafka semantics on Postgres, with stateless clients speaking HTTP to a stateless server. Peaks at 45k req/s.</p>
         <div class="flex gap-6 text-xs text-gray-600">
           <span class="flex items-center gap-1.5">&#9733; 41 stars</span>
           <span>420+ commits</span>
@@ -197,7 +196,7 @@ tailwind.config = {
             <span class="text-[11px] px-2.5 py-1 rounded-full bg-viola/[0.08] text-viola border border-viola/[0.15] tracking-wide">Tauri</span>
           </div>
         </div>
-        <p class="text-gray-400 text-[15px] leading-[1.8] mb-5">An AI agent fleet manager and IDE. Define high-level goals, and an autonomous scheduler spawns pipelines of specialist agents — architects, builders, testers — each in dedicated git branches. Incremental builds with verification gates. Goals in, working code out.</p>
+        <p class="text-gray-400 text-[15px] leading-[1.8] mb-5">An AI agent fleet manager and IDE. Define high-level goals, and an autonomous scheduler spawns pipelines of specialist agents, architects, builders, testers each in dedicated git branches. Incremental builds with verification gates. Goals in, working code out.</p>
         <div class="flex gap-6 text-xs text-gray-600">
           <span>Multi-provider</span>
           <span>214+ commits</span>
@@ -214,7 +213,7 @@ tailwind.config = {
     <div class="reveal">
       <p class="text-[11px] font-medium tracking-[3px] uppercase text-viola mb-4">Expertise</p>
       <h2 class="text-3xl sm:text-4xl font-bold tracking-tight mb-4">The full stack. Literally.</h2>
-      <p class="text-gray-400 text-base leading-relaxed mb-12 max-w-xl">From network switches to computer vision models — every layer of the stack.</p>
+      <p class="text-gray-400 text-base leading-relaxed mb-12 max-w-xl">From network switches to computer vision models, every layer of the stack.</p>
     </div>
 
     <div class="grid sm:grid-cols-3 gap-5">
@@ -244,7 +243,7 @@ tailwind.config = {
 
       <div class="reveal p-7 bg-surface-card border border-line rounded-xl hover:border-viola-dim hover:bg-surface-hover transition-all group">
         <h3 class="text-sm font-semibold mb-3 text-gray-200">Products</h3>
-        <p class="text-[13px] text-gray-500 leading-relaxed mb-5">Complete applications — backend to interface. Desktop apps, AI agent systems, real-time platforms. Shipped and running.</p>
+        <p class="text-[13px] text-gray-500 leading-relaxed mb-5">Complete applications, backend to interface. Desktop apps, AI agent systems, real-time platforms. Shipped and running.</p>
         <div class="flex flex-wrap gap-1.5">
           <span class="text-[11px] px-2.5 py-1 rounded-md bg-white/[0.03] border border-line text-gray-500 hover:border-viola-dim hover:text-viola transition-all">C++ / Rust</span>
           <span class="text-[11px] px-2.5 py-1 rounded-md bg-white/[0.03] border border-line text-gray-500 hover:border-viola-dim hover:text-viola transition-all">TypeScript</span>
