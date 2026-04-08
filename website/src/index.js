@@ -168,6 +168,26 @@ tailwind.config = {
         <div class="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-viola to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
         <div class="flex justify-between items-start flex-wrap gap-3 mb-4">
           <h3 class="text-xl font-semibold tracking-tight">
+            <a href="https://designfast.app/" target="_blank" rel="noopener" class="text-gray-200 no-underline hover:text-viola transition-colors">DesignFast &#8599;</a>
+          </h3>
+          <div class="flex gap-1.5 flex-wrap">
+            <span class="text-[11px] px-2.5 py-1 rounded-full bg-viola/[0.08] text-viola border border-viola/[0.15] tracking-wide">TypeScript</span>
+            <span class="text-[11px] px-2.5 py-1 rounded-full bg-viola/[0.08] text-viola border border-viola/[0.15] tracking-wide">AI</span>
+            <span class="text-[11px] px-2.5 py-1 rounded-full bg-viola/[0.08] text-viola border border-viola/[0.15] tracking-wide">Vite</span>
+          </div>
+        </div>
+        <p class="text-gray-400 text-[15px] leading-[1.8] mb-5">AI-powered design generation. Describe what you want, pick from 48 curated styles, and get production-quality HTML, CSS, and JS in seconds. Self-hostable with Claude & Gemini support. Built for engineers who ship.</p>
+        <div class="flex gap-6 text-xs text-gray-600">
+          <span>48 design styles</span>
+          <span>Multi-page webapp mode</span>
+          <span>Open source</span>
+        </div>
+      </div>
+
+      <div class="reveal group relative p-8 sm:p-10 bg-surface-card border border-line rounded-2xl overflow-hidden hover:border-viola-dim hover:-translate-y-0.5 hover:shadow-[0_12px_40px_rgba(0,0,0,0.3)] transition-all duration-300">
+        <div class="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-viola to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+        <div class="flex justify-between items-start flex-wrap gap-3 mb-4">
+          <h3 class="text-xl font-semibold tracking-tight">
             <a href="https://github.com/smartpricing/queen" target="_blank" rel="noopener" class="text-gray-200 no-underline hover:text-viola transition-colors">Queen MQ &#8599;</a>
           </h3>
           <div class="flex gap-1.5 flex-wrap">
